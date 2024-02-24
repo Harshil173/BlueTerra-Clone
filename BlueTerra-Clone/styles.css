@@ -1,0 +1,866 @@
+body{
+    margin: 0px;
+    max-width: 100%;
+}
+
+/* CSS For Navbar Section */
+.logo{
+    padding-left: 5%;
+}
+
+.navbar-container{
+    display: flex;
+    height: 18vh;
+    font-family: Arial,Helvetica,sans-serif;
+    background-color: #f5f5f5;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 2%;
+}
+
+.items ul{
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-close{
+    display: none;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+
+}
+.navbar-toggler {
+    display: none; /* Hide by default */
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+  }
+
+  .circle{
+    border-radius: 45px;
+    width: 120px;
+    height: 6vh; 
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CSS For Info Section */
+
+.info-container{
+    max-width: 100%;
+    background-color: #ebf3fe;  
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.info-container > img{
+    opacity: 0.2;
+    background-color: #ebf3fe;
+    max-width: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+
+.second-container{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.firsttext{
+    font-size: 22px;
+    padding: 2%;
+    text-align: center;
+}
+
+.second-text{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.second2-container{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.second2-container svg{
+    width: 20%;
+}
+
+.fifth-container{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+.fourth-container{
+    text-align: center;
+    margin-left: 42%;
+    background-color: #4286F5;
+    width: 17%;
+    height: 5vh;
+    padding-top: 9px;
+}
+
+.fourth-container > a{
+    color: white;
+    font-weight: bold;
+}
+
+.first-class{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;    
+    max-width: 100%;
+}
+
+.info-one{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.info-one svg{
+    width: 13%;
+}
+
+.info-one p{
+    padding: 2%;
+}
+
+/* CSS For Feature Section */
+
+.texth2{
+    padding-top: 5%;
+    background-color: #f5f5f5;
+}
+.texth2 h2{
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.feature-container{
+    max-width:  100%;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-weight: bolder;
+    padding-bottom: 5%;
+}
+
+.first-main{
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 250px;
+    padding: 20px;
+    
+}
+
+/* CSS For Carpet Section */
+
+.carpet-container{
+    background-color: white;
+    margin-top: 3%; 
+    padding-top: 5%; 
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px; 
+    justify-content: center;
+}
+
+.carpet-image{
+    max-width: 100%;
+}
+
+.carpet-second{
+    display: flex;
+    gap: 5px; 
+    flex-flow: column wrap;
+    width: 40%;
+}
+
+
+.carpetp{
+    width: 78%;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+ .carpethead{ 
+    width:90%;
+    font-size: 25px;
+}
+
+.carpeta{
+    background-color: #4286F5;
+    width: 50%;
+    height: 5vh;
+    padding-top: 10px;
+}
+
+.carpeta > a{
+    color: white;
+    font-weight: bold;
+    padding-left: 50px;
+    
+} 
+
+/* CSS For Icon Section */
+.icon-container{
+    margin-top: 5%;
+    background-color: #ebf3fe;
+    padding-bottom: 3%;
+}
+
+
+.icon-heading{
+ position: relative;
+}
+
+.h2head{
+    font-size: 28px;
+    margin-left: 29%;
+    padding-top: 6%;
+}
+
+.phead{
+    font-size: 16px;
+    margin-left: 32%;
+    font-weight: bold;
+}
+
+
+.ic-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    gap: 7%;
+    justify-content: center;
+}
+
+.ic-container svg{
+    margin-top: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.ic-container > div{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 15%;
+}
+
+.ic-container p{
+    font-weight: bold;
+    
+}
+
+/* CSS For Client Section */
+
+.client-container{
+    background-color: white;
+    max-width: 100%;
+    padding-bottom: 2%;
+}
+
+.clienth2 h2{
+    padding-top: 2%;
+    padding-left: 35%;
+    font-style: italic;
+}
+
+.clients{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+/* CSS For Screenshot Section */
+
+.ss-container{
+    background-color: #ebf3fe;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.ssh2{
+   
+    font-size: 23px;
+    text-align: center;
+    width: 55%;
+    padding-top: 7%;
+}
+
+.ssbutt{
+    width: 10%;
+    height: 6vh;
+    background-color: #4286F5;
+    text-align: center;
+    border-radius: 10%;
+    padding-top: 1%;
+}
+
+.ssbutt a{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ss-photo{
+    max-width: 100%;    
+}
+
+/* CSS For Form Section */
+
+.main-form span{
+    display: block;
+    color: red;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.form-container{
+    max-width: 100%;
+    background-color: #f5f5f5;
+    padding-top: 5%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+
+.secondary-container{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+}
+
+.first-part{
+    display: flex;
+    flex-direction: column;
+    background-color: #4286F5;
+    width: 30%;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.h2first{
+   color: white;
+   font-weight: bold;
+   font-size: 26px;
+   width: 50%;
+}
+
+.parafirst{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    width: 50%;
+}   
+
+.second-part{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    padding-top: 6%;
+    padding-bottom: 5%;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.main-form div,label,input,textarea{
+    width: 100%; 
+}
+
+.main-form input{
+    height: 5vh;
+}
+
+.sub-second{
+    width: 60%;
+}
+.main-form{ 
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 16px;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.first-two{
+    display: flex;
+    flex-flow: row ;
+    gap: 20px;
+}
+
+.second-two{
+    display: flex;
+    flex-flow: row;
+    gap: 20px;
+}
+
+.submit-main > input{
+    background-color: #4286F5;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    height: 8vh;
+    border: 1px solid white;
+} 
+
+
+/* CSS For Footer Section */
+.footer-container{
+    background-color: white  ;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 7%;
+    padding-bottom: 4%;
+    font-weight: bold;
+    font-size: 18px;
+    max-width: 100%;
+}
+
+.footer-inner{
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 100%;
+}
+
+.footer-outer{
+    display: flex;
+    flex-flow: column wrap;
+    padding-top: 4%;
+    max-width: 100%;
+}
+
+.contact p{
+    font-size: 22px;
+}
+
+@media (min-width:350px) and (max-width:500px){
+   
+    /* CSS for Footer Section */
+    .footer-container{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    
+    /* CSS for Form Section */
+    .form-container{
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .h2first h1{
+        font-size: 25px;
+    }
+
+    .parafirst{
+        width:100%;
+        padding-bottom: 1%;
+    }
+
+    
+    .secondary-container{
+        display: flex;
+        flex-flow: column wrap;
+        max-width: 100%;
+    }
+
+    .first-part{
+        width: 100%;
+        display: flex;
+        text-align: center;
+    }
+
+    .second-part{
+        width: 100%;
+    }
+
+    .second-part label{
+        font-size: 10px;
+    }
+
+    .h2first{
+        font-size: 22px;
+        width: 75%;
+    }
+    
+    /* CSS for Screenshot section */
+    .ssh2{
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .ssbutt{
+        padding-top: 1%;
+        width: 30%;
+        border-radius: 0%;
+        height: 4vh;
+    }
+
+    .ss-photo{
+        margin-top: 2%;
+        width: 100%;
+    }
+
+    .ss-photo > img{
+        max-width: 100%; 
+        width: 60%;
+        height: auto; 
+        display: block; 
+        margin: 0 auto; 
+       }
+
+
+    /* CSS For Client Section */
+    .clienth2 > h2{
+        padding-left: 0%;
+    }
+    .clienth2{
+        text-align: center;
+    }
+
+    /* CSS For Icons Section */
+
+    .icon-heading{
+        text-align: center;
+    }
+
+    .h2head{
+        margin-left: 0%;
+    }
+
+    .phead{
+        margin-left: 0%;
+    }
+
+    .ic-container{
+        gap: 50px;
+    }
+
+    /* CSS For Carpet Section */
+    .carpet-container{
+        text-align: center;
+    } 
+    
+    .carpethead{
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .carpethead > h2{
+        text-align: center;
+    }
+
+    .carpetp{
+        width: 100%;
+    }
+
+    .carpetp > p{
+        text-align: center;
+    }
+
+    .carpet-image{
+        width: 100%;
+    }
+
+    .carpet-second{
+        width: 100%;
+    }
+
+    .carpeta{
+        width: 35%;
+        margin-left: 32%;
+        padding: 1%;
+    }
+
+    .carpeta > a{
+        font-size: 15px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    /* CSS For Information Section */
+    .info-container > img{
+        height: 60vh;
+    }
+
+    
+    .firsttext{
+        /* width: 100%; */
+        font-size: 12px;
+    }
+    
+    .second-text{
+        margin-top: 25px;
+        font-size: 12px;
+    }
+    
+    .fourth-container{
+        width: 35%;
+        margin: 0%;
+        margin-left: 35%;
+    }
+    
+    .first-class{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info-one{
+        width: 50%;
+        height: 8vh;
+    }
+    
+    body > div.info-container > div.first-class > div:nth-child(2){
+        margin-left:6%
+    }
+    
+      
+    /* CSS For Navbar Section */
+
+    .items ul{
+        display: none;
+    }
+
+    .logo-show{
+        display: none;
+    }
+
+    .navbar-toggler{
+        display: inline-flex;
+    }
+
+    .items{
+        width: 100%;
+        padding-left: 12%;
+    }
+
+    .unlist.show{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content:center;
+        align-items: center;
+        padding-left: 0px;
+        height: auto;
+        width: 100%;
+    }
+
+    .navbar-container{
+        height: 100%;
+        width: 100%;
+    }
+
+
+    /* CSS For Icons Sections */
+    .ic-container > div{
+        width: 25%;
+    }
+}
+
+
+@media (min-width:501px) and (max-width:780px){
+    
+    /* CSS For Navbar Section */
+    .navbar-container{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        height: 100%;
+    }
+    .items ul{
+        display: none;
+    }
+
+    .navbar-toggler{
+        display: flex;
+        margin-top: 24px;
+    }
+
+    .navbar-close{
+        display: none;
+    }
+
+    .logo-show{
+        display: none;
+    }
+
+    .unlist.show{
+        display: flex;
+        flex-flow: column wrap;
+        padding-left: 0px;
+        max-width: 100%;
+        width:750px;
+        background-color: #f5f5f5;
+        border: 1px solid #4286F5;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .logo{
+        padding-top: 40px;
+        padding-left: 30px;
+    }
+
+    .items{
+        margin-top: 45px;
+        margin-left: 0%;
+        padding-right: 25px;
+    }
+
+
+    /* CSS For Information Section */
+    
+    .info-container > img{
+        height: 81vh;
+    }
+
+    body > div.info-container > div.first-class > div:nth-child(2){
+        margin-left: 34px;
+    } 
+
+    .first-class{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info-one{
+        width: 50%;
+        height: 10vh;
+    }
+
+
+    /*  CSS For Feature Section */
+   
+    .texth2{
+        padding-top: 100px;
+    }
+
+
+    .feature-container{
+        padding: 10px;
+    }
+
+    /* CSS For Large Carpet Section */
+    .carpeta{
+        width: 75%;
+        height: 4vh;
+    }
+
+    .carpeta > a{
+        text-align: center;
+    }
+
+    .icon-heading{
+        text-align: center;
+    }
+
+    .h2head{
+        margin-left: 0%;
+    }
+
+    .phead{
+        margin-left: 0%;
+    }
+
+    .clienth2 > h2{
+        padding-left: 0%;
+    }
+    .clienth2{
+        text-align: center;
+    }
+    .ssh2{
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .ssbutt{
+        padding-top: 1%;
+        width: 30%;
+        border-radius: 0%;
+        height: 4vh;
+    }
+
+    .ss-photo{
+        margin-top: 2%;
+        width: 100%;
+    }
+
+    .ss-photo > img{
+        max-width: 100%; 
+        width: 60%;
+        height: auto; 
+        display: block; 
+        margin: 0 auto; 
+       }
+
+       /* CSS For Form Section */
+       .first-two{
+        display: flex;
+        flex-flow: column wrap;
+       }
+
+       .second-two{
+        display: flex;
+        flex-flow: column wrap;
+       }
+
+       .form-container{
+        padding-left: 20px;
+       }
+
+       .submit-main > input{
+        background-color: #4286F5;
+        color: white;
+        font-weight: bold;
+        font-size: 25px;
+        height: 4vh;
+        border: 1px solid white;
+        } 
+
+        .submit-main{
+            width: 35%;
+        }
+    
+}
+
+@media (min-width:781px) and (max-width:1100px){
+
+    .navbar-container{
+        
+    }
+
+    .info-container > img{
+        height: 110vh;
+    }
+}
